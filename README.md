@@ -14,11 +14,8 @@ Topics covered:
 * Basic array operations
 * Traversal techniques
 * Prefix sum
-* Sliding window
-* Two-pointer technique
 * Sorting basics
 * Searching (Linear & Binary Search)
-* Time & Space Complexity analysis
 
 ---
 
@@ -30,16 +27,12 @@ Topics covered:
 
 ---
 
-## 📂 Repository Structure
+## 📂 Current Repository Structure
 
 ```
 DSA/
 │
 ├── Arrays/
-│   
-│   
-│  
-├── Notes/
 │
 └── README.md
 ```
