@@ -2,6 +2,11 @@ package arrays;
 import java.sql.Array;
 import java.util.Arrays;
 public class MyArray {
+    static void printArray(int[] arr){
+        for(int i:arr){
+            System.out.println(i);
+        }
+    }
     public static void main(String[] args) {
         // Syntax to create an array: dataType [] = new dataType[size];
 
@@ -11,17 +16,6 @@ public class MyArray {
         age[0] = 23;
         age[1] = 50;
         age[3] = 45;
-//        System.out.println(age[0]+ " "+ age[1]+ " "+age[3]+ " "+age[2]);
-
-//        for(int i = 0;i<weight.length;i++){
-//            System.out.println(weight[i]);
-//        }
-//        for(int i=0;i<age.length;i++){
-//            System.out.println(age[i]);
-//        }
-        // For each loop
-        for(int ages:age){
-            System.out.println(ages);
-        }
+        printArray(age);
     }
 }

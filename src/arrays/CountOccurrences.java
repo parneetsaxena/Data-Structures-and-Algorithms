@@ -1,20 +1,22 @@
 package arrays;
-import java.util.Scanner;
+
 public class CountOccurrences {
-    public static void main(String[] args) {
-        int [] arr = {10,40,11,10,34,10,44};
+    static int countOccurrence(int [] arr,int target){
         int count = 0;
-        Scanner scanner  = new Scanner(System.in);
-        System.out.print("Enter the element: ");
-        int target = scanner.nextInt();
-        for(int i = 0;i<arr.length;i++){
+        for(int i =0;i<arr.length;i++){
             if(arr[i]==target){
                 count++;
             }
         }
         if(count==0){
-            System.out.println("Array does not contain "+ target);
+            return 0;
         }else{
-        System.out.println(target + " has appeared "+ count+ " times in the array");
-    }}
+            return count;
+        }
+    }
+    public static void main(String[] args) {
+        int [] arr = {10,40,11,10,34,10,44};
+        System.out.println(countOccurrence(arr,20));
+    }
 }
+
