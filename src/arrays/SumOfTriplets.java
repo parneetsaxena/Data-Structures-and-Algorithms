@@ -1,7 +1,7 @@
 package arrays;
 
 public class SumOfTriplets {
-    static int sumOfTriplets(int[] arr,int target){
+    static int findSumOfTriplets(int[] arr, int target){
         int count = 0;
         for(int i = 0;i<arr.length;i++){
             for(int j = i+1;j<arr.length;j++){
@@ -17,6 +17,6 @@ public class SumOfTriplets {
 
     public static void main(String[] args) {
         int[] arr = {10,30,40,60,80,50,100};
-        System.out.println(sumOfTriplets(arr,150));
+        System.out.println(findSumOfTriplets(arr,150));
     }
 }

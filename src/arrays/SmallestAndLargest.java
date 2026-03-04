@@ -4,7 +4,7 @@ import java.util.Arrays;
 
 public class SmallestAndLargest {
 
-    static int [] smallestLargest(int[] arr){
+    static int [] findSmallestAndLargest(int[] arr){
         int smallest = arr[0];
         int largest = arr[0];
         for(int i =1;i<arr.length;i++){
@@ -21,6 +21,6 @@ public class SmallestAndLargest {
 
     public static void main(String[] args) {
         int [] arr = {120,20,30,40,50,-21};
-        System.out.println(Arrays.toString(smallestLargest(arr)));
+        System.out.println(Arrays.toString(findSmallestAndLargest(arr)));
         }
     }
