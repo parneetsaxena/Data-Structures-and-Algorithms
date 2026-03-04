@@ -36,10 +36,9 @@ Topics covered:
 DSA/
 │
 ├── Arrays/
-│   ├── Easy/
-│   ├── Medium/
-│   ├── Hard/
-│
+│   
+│   
+│  
 ├── Notes/
 │
 └── README.md
